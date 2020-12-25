@@ -28,7 +28,7 @@ You can create ssh keys by using `ssh-keygen` command. It will ask you where to 
 
 You can check the keys by typing `ls -la ~/.ssh`, one for private and one for public. Check the content of the public key: `cat ~/.ssh/id_rsa.pub`.
 
-In order to let the server know about this, we need to copy our public key there. We can do that by using `ssh-copy-id` command, it'll ask you for the password of the private key.
+In order to let the server know about this, we need to copy our public key there. We can do that by using `ssh-copy-id` command, it'll ask you for the password one last time.
 
 `ssh-copy-id -i ~/.ssh/id_rsa.pub fguney@login.kuacc.ku.edu.tr`
 

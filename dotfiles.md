@@ -42,6 +42,7 @@ Just a reminder:
 
 > Shell scripting is scripting in any shell, whereas Bash scripting is scripting specifically for Bash. In practice, however, "shell script" and "bash script" are often used interchangeably, unless the shell in question is not Bash.
 
+
 You can also source it by typing `. ~/.bashrc`. Type it and see what happens. This is what we've been doing with the `$SHELL` command since the beginning! In other words, it is an alias for the `/bin/bash` command. When it is executed, or each time we start bash, the ".bashrc" file in your home directory is executed.
 
 As you can see in your ".bashrc" file, starting in l.90, there are some `ls` aliases that are already defined for you.
